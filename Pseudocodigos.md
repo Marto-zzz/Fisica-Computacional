@@ -58,7 +58,7 @@ INICIO
     Apagar el fuego.
 FIN
 
-## Ejercicio 4: Comer en la Cafetería Central
+## Ejercicio 3: Comer en la Cafetería Central
 
 INICIO
     Dirigirse a la Cafetería Central.
