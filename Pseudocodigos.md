@@ -24,29 +24,6 @@ INICIO
     Salir de la biblioteca.
 FIN
 
-```mermaid
-flowchart TD
-A[Inicio] --> B[Buscar libro en catálogo virtual]
-
-B --> C{¿Libro disponible?}
-
-C -- Sí --> D[Ir a la Biblioteca Central]
-D --> E[Dejar maletín en locker]
-E --> F[Ingresar a sala principal]
-F --> G[Buscar estante correspondiente]
-G --> H[Tomar el libro]
-H --> I[Ir al módulo de atención]
-I --> J[Entregar libro y carnet]
-J --> K[Recibir libro y confirmar fecha]
-
-C -- No --> L[Mostrar mensaje: Libro prestado]
-
-K --> M[Recoger maletín]
-L --> M
-M --> N[Salir de la biblioteca]
-N --> O[Fin]
-```
-
 ## Ejercicio 2: Receta para una tortilla básica
 
 INICIO
