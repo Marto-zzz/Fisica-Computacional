@@ -3,7 +3,7 @@
 #include <time.h>   // <-- necesario para medir tiempo
 
 #define PI 3.14159265358979323846
-#define N 3200
+#define N 300
 
 int main() {
 
